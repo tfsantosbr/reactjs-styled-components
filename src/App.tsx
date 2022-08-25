@@ -1,11 +1,10 @@
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from 'styled-components'
 
-import { Button } from "./components/Button";
-import { ButtonWithStyledComponent } from "./components/ButtonWithStyledComponent";
-import { ButtonWithThemedStyledComponent } from "./components/ButtonWithThemedStyledComponent";
-import { GlobalStyle } from "./styles/global";
-import { darkTheme } from "./styles/themes/dark.theme";
-import { defaultTheme } from "./styles/themes/default.theme";
+import { Button } from './components/Button'
+import { ButtonWithStyledComponent } from './components/ButtonWithStyledComponent'
+import { ButtonWithThemedStyledComponent } from './components/ButtonWithThemedStyledComponent'
+import { GlobalStyle } from './styles/global'
+import { defaultTheme } from './styles/themes/default.theme'
 
 export function App() {
   return (
@@ -36,5 +35,5 @@ export function App() {
         <GlobalStyle />
       </ThemeProvider>
     </>
-  );
+  )
 }

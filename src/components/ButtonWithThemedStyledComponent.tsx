@@ -1,9 +1,14 @@
-import { ThemedButtonContainer, ThemedButtonVariant } from "./ButtonWithThemedStyledComponent.styles";
+import {
+  ThemedButtonContainer,
+  ThemedButtonVariant,
+} from './ButtonWithThemedStyledComponent.styles'
 
 interface ThemedButtonProps {
-  variant?: ThemedButtonVariant;
+  variant?: ThemedButtonVariant
 }
 
-export function ButtonWithThemedStyledComponent({ variant = 'primary' }: ThemedButtonProps) {
-  return <ThemedButtonContainer variant={variant}>Enviar</ThemedButtonContainer>;
+export function ButtonWithThemedStyledComponent({
+  variant = 'primary',
+}: ThemedButtonProps) {
+  return <ThemedButtonContainer variant={variant}>Enviar</ThemedButtonContainer>
 }
