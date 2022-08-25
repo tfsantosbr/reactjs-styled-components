@@ -35,19 +35,6 @@ export function App() {
         </div>
         <GlobalStyle />
       </ThemeProvider>
-
-      <h1>Themed Styled Component Buttons: Dark Theme</h1>
-      <ThemeProvider theme={darkTheme}>
-        <div className="wrapper">
-          <ButtonWithThemedStyledComponent variant="primary" />
-          <ButtonWithThemedStyledComponent variant="secondary" />
-          <ButtonWithThemedStyledComponent variant="danger" />
-          <ButtonWithThemedStyledComponent variant="success" />
-          <ButtonWithThemedStyledComponent />
-        </div>
-
-        <GlobalStyle />
-      </ThemeProvider>
     </>
   );
 }
