@@ -1,5 +1,7 @@
 export const darkTheme = {
-    white: 'yellow',
-    primary: 'black',
-    secondary: 'orange',
+    white: 'black',
+    primary: 'grey',
+    secondary: 'yellow',
+    danger: 'red',
+    success: 'orange'
 }

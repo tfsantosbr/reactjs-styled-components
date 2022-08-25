@@ -13,6 +13,6 @@ export const ThemedButtonContainer = styled.button<ThemedButtonContainerProps>`
     border:0;
     margin: 8px;
 
-    background-color: ${props => props.theme.primary};
+    background-color: ${props => props.theme[props.variant]};
     color: ${props => props.theme.white};
 `
